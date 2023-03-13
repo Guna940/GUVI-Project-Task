@@ -1,0 +1,69 @@
+/*.gradient-custom-3 {
+
+    background-color: #95f9b9;
+
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+
+
+.login_form #email_error,
+.login_form #pass_error {
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #6adce4;
+    background: rgba(255, 0, 0, 0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display: none;
+}
+.login_form button:hover {
+    background: #151c6a;
+    color: aliceblue;
+}*/
+
+body {
+    background: -webkit-linear-gradient(to right, rgba(180, 245, 241, 0.749), rgba(180, 245, 241, 0.749));
+    background: linear-gradient(to right, rgba(180, 245, 241, 0.749), rgba(180, 245, 241, 0.749));
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    background: #75dffc;
+    border-radius: 5px;
+}
+
+.center{
+    background-color: rgb(0, 234, 255);
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+    margin-right: 25px;
+}
+.center1{
+    background-color: rgb(0, 221, 255);
+    border-radius: 8px;
+    border: 2px solid whitesmoke;
+}
+.btn-lg{
+    margin-top: 250px;
+}
+.center:hover{
+    background-color: rgb(251, 12, 12);
+}
+.center1:hover{
+    background-color: rgb(252, 18, 18);
+}
+.btn-lg
+{
+    color: bisque;
+}
